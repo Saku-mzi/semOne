@@ -12,7 +12,6 @@ div.yes {
   top: 100px;
   left: 150px;
   position: absolute;
-  border-radius: 50%;
 }
 div.ye {
   width: 100px;
@@ -21,5 +20,4 @@ div.ye {
   top: 100px;
   left: 150px;
   position: absolute;
-  border-radius: 50%;
 }
