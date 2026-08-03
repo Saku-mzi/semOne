@@ -3,15 +3,41 @@ body {
   height: 100dvh;
   display: grid;
   place-items: center;
+  background-color: antiquewhite;
+}
+
+div.ye {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(100, 38, 38);
+  top: 200px;
+  left: 150px;
+  position: absolute;
+  border-radius: 50%;
+  transition: all 0.4s linear;
+  z-index: 3;
 }
 
 div.yes {
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
+  background-color: antiquewhite;
+  top: 200px;
+  left: 150px;
+  position: absolute;
+  border-radius: 50%;
+  transition: all 0.4s linear;
+  z-index: 2;
+}
+
+div.yeh {
+  width: 60px;
+  height: 60px;
   background-color: rgb(158, 45, 45);
   top: 200px;
   left: 150px;
   position: absolute;
   border-radius: 50%;
-  transition: all 0.5s linear;
+  transition: all 0.4s linear;
+  z-index: 1;
 }
