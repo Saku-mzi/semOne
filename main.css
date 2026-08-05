@@ -46,8 +46,26 @@ div#yeh {
 
 header {
   width: 100dvw;
-  height: 5dvh;
+  height: 6dvh;
   position: fixed;
   background-color: rgb(100, 38, 38);
   top: 0;
+  display: flex;
+  justify-content: space-between;
+  img {
+    padding: 10px;
+    height: 4dvh;
+  }
+}
+
+main {
+  height: 89dvh;
+}
+
+footer {
+  height: 5dvh;
+  width: 100dvw;
+  background-color: rgb(173, 150, 122);
+  position: absolute;
+  bottom: 0;
 }
