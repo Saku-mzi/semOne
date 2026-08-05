@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  width: 100dvw;
   height: 100dvh;
   display: grid;
   place-items: center;
@@ -7,9 +8,9 @@ body {
   cursor: none;
 }
 
-div.ye {
-  width: 20px;
-  height: 20px;
+div#ye {
+  width: 12px;
+  height: 12px;
   background-color: rgb(100, 38, 38);
   top: 200px;
   left: 150px;
@@ -19,9 +20,9 @@ div.ye {
   z-index: 3;
 }
 
-div.yes {
-  width: 30px;
-  height: 30px;
+div#yes {
+  width: 18px;
+  height: 18px;
   background-color: antiquewhite;
   top: 200px;
   left: 150px;
@@ -31,9 +32,9 @@ div.yes {
   z-index: 2;
 }
 
-div.yeh {
-  width: 40px;
-  height: 40px;
+div#yeh {
+  width: 26px;
+  height: 26px;
   background-color: rgb(158, 45, 45);
   top: 200px;
   left: 150px;
