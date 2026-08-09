@@ -33,7 +33,7 @@ header {
 
 main {
   height: 89dvh;
-  width: 86dvw;
+  width: 90dvw;
   padding: 10px;
   place-items: center;
 
@@ -42,8 +42,17 @@ main {
     font-size: larger;
   }
 
+  #container {
+    display: flex;
+  }
+
   div.container {
-    background-color: rgba(173, 150, 122, 0.795);
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 15dvw;
+      padding: 10px 0;
+    }
   }
 }
 
